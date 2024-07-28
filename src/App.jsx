@@ -10,7 +10,7 @@ export default class App extends Component {
       <div>
         {/* Hello there {this.name + " " + a} */}
         <Navbar />
-        <NewsComponent />
+        <NewsComponent pageSize={12} />
       </div>
     );
   }
